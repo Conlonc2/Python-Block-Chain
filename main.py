@@ -10,3 +10,6 @@ def main():
     while blockchain.head != None:
         print(blockchain.head)
         blockchain.head = blockchain.head.next
+
+
+main()
