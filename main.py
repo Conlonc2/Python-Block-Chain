@@ -4,7 +4,9 @@ from Block import Block, Blockchain
 def main():
     blockchain = Blockchain()
 
-    for n in range(10):
+    how_many_blocks = int(input("How many blocks do you want to mine?: "))
+
+    for n in range(how_many_blocks):
         blockchain.mine(Block("Block " + str(n+1)))
 
 
