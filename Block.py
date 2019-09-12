@@ -1,7 +1,7 @@
 import datetime
 import hashlib
 
-
+# The block class to make up the blockchain 
 class Block:
     blockNo = 0
     data = None
